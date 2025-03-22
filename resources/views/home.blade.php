@@ -1,4 +1,16 @@
-<div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
     <div class="flex flex-col items-center justify-center h-screen dark">
         <div class="w-full max-w-md bg-gray-800 rounded-lg shadow-md p-6">
             <h2 class="text-2xl font-bold text-gray-200 mb-4">Login</h2>
@@ -24,4 +36,6 @@
             </form>
         </div>
     </div>
-</div>
+</body>
+
+</html>
