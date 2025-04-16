@@ -26,6 +26,9 @@ Route::prefix('admin')->group(function () {
     });
 });
 
+Route::get('/kucing', function () {
+    return view('kocak');
+});
 Route::get('/listbarang/{id}/{nama}', [DataController::class, 'data']);
 Route::get('/data', [ListBarangController::class, 'tampilkan']);
 Route::get('/dashboard', [DashboardController::class, 'dashboard']);
