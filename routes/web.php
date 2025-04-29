@@ -6,9 +6,9 @@ use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\DataController;
 
-Route::get('/', [HomeController::class, 'index']);
-Route::get('/contact', [HomeController::class, 'contact']);
-
+Route::get('/', function() {
+    return view('pages.home');
+});
 Route::get('/welcome', function () {
     return view('welcome');
 });
@@ -32,3 +32,4 @@ Route::get('/kucing', function () {
 Route::get('/listbarang', [DataController::class, 'data']);
 Route::get('/data', [ListBarangController::class, 'tampilkan']);
 Route::get('/dashboard', [DashboardController::class, 'dashboard']);
+
