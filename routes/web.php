@@ -34,4 +34,5 @@ Route::get('/listbarang', [DataController::class, 'data']);
 Route::get('/data', [ListBarangController::class, 'tampilkan']);
 Route::get('/dashboard', [DashboardController::class, 'dashboard']);
 
-Route::get('/listproduk', [ListProdukController::class, 'show']);
+Route::get('/listproduk', [ListProdukController::class, 'show'])-> name('produk.show');
+Route::post('/produk/simpan', [ListProdukController::class, 'simpan'])->name('produk.simpan');
