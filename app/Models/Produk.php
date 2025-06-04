@@ -9,12 +9,12 @@ class Produk extends Model
 {
     use HasFactory;
 
-    // Nonaktifkan timestamps jika tidak ada kolom created_at dan updated_at
     public $timestamps = false;
 
-    protected $table = 'tblproduk'; // Nama tabel
+    protected $table = 'tblproduk';
 
-    // Kolom yang bisa diisi mass assignment
+    protected $primaryKey = 'id';
+
     protected $fillable = [
         'nama',
         'harga',

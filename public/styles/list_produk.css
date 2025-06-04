@@ -1,0 +1,110 @@
+.table thead th {
+    background-color: #db8dd0 !important;
+    color: #b33791 !important;
+    font-weight: bold !important;
+}
+
+.table tbody td {
+    color: #b33791 !important;
+}
+
+.table tbody tr {
+    background-color: #fec5f6 !important;
+}
+
+h1 {
+    color: #b33791 !important;
+}
+
+/* Custom button styles */
+.btn.custom-btn-secondary {
+    background-color: #c562af !important;
+    border-color: #c562af !important;
+    color: white !important;
+}
+
+.btn.custom-btn-secondary:hover {
+    background-color: #b33791 !important;
+    border-color: #b33791 !important;
+}
+
+.btn.custom-btn-accent {
+    background-color: #db8dd0 !important;
+    border-color: #db8dd0 !important;
+    color: #b33791 !important;
+    font-weight: bold !important;
+}
+
+.btn.custom-btn-accent:hover {
+    background-color: #fec5f6 !important;
+    border-color: #c562af !important;
+    color: #b33791 !important;
+}
+
+.btn.custom-btn-primary {
+    background-color: #b33791 !important;
+    border-color: #b33791 !important;
+    color: white !important;
+}
+
+.btn.custom-btn-primary:hover {
+    background-color: #c562af !important;
+    border-color: #c562af !important;
+}
+
+/* Modal styles */
+.modal-box {
+    background-color: white !important;
+    border: 2px solid #b33791 !important;
+}
+
+.modal-box h3 {
+    color: #b33791 !important;
+}
+
+.modal-box label {
+    color: #b33791 !important;
+}
+
+/* Form input styles */
+input[type="text"],
+input[type="number"],
+textarea {
+    border-color: #c562af !important;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus {
+    outline: none !important;
+    border-color: #b33791 !important;
+    box-shadow: 0 0 0 2px rgba(179, 55, 145, 0.3) !important;
+}
+
+/* Table container */
+.overflow-x-auto {
+    border-color: #b33791 !important;
+    box-shadow: 0 10px 15px -3px rgba(179, 55, 145, 0.1) !important;
+}
+
+/* Alert styles */
+.alert.custom-alert-success {
+    background-color: #fec5f6 !important;
+    color: #b33791 !important;
+    border-color: #db8dd0 !important;
+}
+
+.alert.custom-alert-error {
+    background-color: #fee2e2 !important;
+    color: #991b1b !important;
+    border-color: #fca5a5 !important;
+}
+
+/* Close button in modal */
+.btn-ghost {
+    color: #b33791 !important;
+}
+
+.btn-ghost:hover {
+    background-color: #fec5f6 !important;
+}

@@ -36,3 +36,5 @@ Route::get('/dashboard', [DashboardController::class, 'dashboard']);
 
 Route::get('/listproduk', [ListProdukController::class, 'show'])-> name('produk.show');
 Route::post('/produk/simpan', [ListProdukController::class, 'simpan'])->name('produk.simpan');
+Route::put('/produk/update/{id}', [ListProdukController::class, 'update'])->name('produk.update');
+Route::delete('/produk/hapus/{id}', [ListProdukController::class, 'hapus'])->name('produk.hapus');
